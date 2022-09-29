@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #c0bd1e;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #555;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home .profile-img {
+    width: 250px;
+    border-radius: 10%;
+    object-fit: scale-down;
+}
+.h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: cursive;
+}
+.h2 {
+  font-size: 75px;
+  font-family: cursive;
+}
+.h3 {
+  font-family: cursive;
+  font-size: 25px;
+}
+.h4 {
+  font-family: cursive;
+  font-size:50px;
+}
+.h6 {
+  font-family: cursive;
+  font-size: large;
+}
+.li_me{
+  font-size: 25px;
+  font-family: fantasy;
+}
+.li_educ{
+  font-size: 23px;
+  font-family: fantasy;
+}
+#home {
+  background-image: url('pexels-fwstudio-129731.jpg');
+}
+#about {
+  background-image: url('303595577_795100248353152_2442795747939363439_n.jpg');
+}
+#contact {
+  background-image: url('292272664_563424352108776_4298493519099447666_n.jpg');
+}
+header li {
+  margin-left: 20px;
+}
